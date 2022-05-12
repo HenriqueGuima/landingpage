@@ -12,7 +12,7 @@ function App() {
             <h1 className="text-center frase">
               Uma nova cara... a qualidade de sempre!
             </h1>
-            <div className="sticker " />
+            <div className="sticker" />
             <div className="container-fluid contact-width">
               <div className="row contactos ">
                 <div className="d-flex justify-content-between">

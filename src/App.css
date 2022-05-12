@@ -186,6 +186,13 @@ table {
 
 /* Media query */
 @media (max-width: 768px) {
+  .sticker {
+    background-image: url("../src/assets/Logo_MEPS_sticker.png");
+    height: 15em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
   .hidden {
     display: none;
   }
@@ -194,12 +201,11 @@ table {
     display: block;
   }
 
-  .morada-dir {
-    margin-top: 3em;
+  .morada-esq {
     text-align: unset;
   }
-
-  .morada-esq {
+  .morada-dir {
+    margin-block: 3em;
     text-align: unset;
   }
 }
