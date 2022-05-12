@@ -15,16 +15,31 @@ function App() {
             <div className="sticker " />
             <div className="container-fluid contact-width">
               <div className="row contactos ">
-                <div className="container-fluid">
-                  <div className="d-flex justify-content-between">
-                    <div className="col-md-4">
+                <div className="d-flex justify-content-between">
+                  <div class="col-md-12 hidden">
+                    <div className="col-md-4 morada-esq">
                       <span style={{ fontSize: "2.5rem" }}>Armazém</span>{" "}
                       <div className="morada">
                         Rua da Agrela, Bouças
                         <div> Apartado 278, 4824-909 Fafe</div>
                       </div>
                     </div>
-                    <div className="col-md-4 " style={{ textAlign: "right" }}>
+                    <div className="col-md-4 morada-dir">
+                      <span style={{ fontSize: "2.5rem" }}>Fábrica</span>{" "}
+                      <div className="morada">
+                        Rua da Agrela<div>Apartado 128, 4820-403 Fafe</div>{" "}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-center show">
+                    <div className="morada-esq">
+                      <span style={{ fontSize: "2.5rem" }}>Armazém</span>{" "}
+                      <div className="morada">
+                        Rua da Agrela, Bouças
+                        <div> Apartado 278, 4824-909 Fafe</div>
+                      </div>
+                    </div>
+                    <div className="morada-dir">
                       <span style={{ fontSize: "2.5rem" }}>Fábrica</span>{" "}
                       <div className="morada">
                         Rua da Agrela<div>Apartado 128, 4820-403 Fafe</div>{" "}
