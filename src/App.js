@@ -18,14 +18,14 @@ function App() {
                 <div className="container-fluid">
                   <div className="d-flex justify-content-between">
                     <div className="col-md-4">
-                      <span>ARMAZÉM</span>{" "}
+                      <span style={{ fontSize: "2.5rem" }}>Armazém</span>{" "}
                       <div className="morada">
                         Rua da Agrela, Bouças
                         <div> Apartado 278, 4824-909 Fafe</div>
                       </div>
                     </div>
                     <div className="col-md-4 " style={{ textAlign: "right" }}>
-                      <span>FÁBRICA</span>{" "}
+                      <span style={{ fontSize: "2.5rem" }}>Fábrica</span>{" "}
                       <div className="morada">
                         Rua da Agrela<div>Apartado 128, 4820-403 Fafe</div>{" "}
                       </div>
