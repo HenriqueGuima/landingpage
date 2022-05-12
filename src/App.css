@@ -40,7 +40,6 @@ var,
 b,
 u,
 i,
-center,
 dl,
 dt,
 dd,
@@ -85,7 +84,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  text-align: center;
 }
 
 @font-face {
@@ -150,7 +148,7 @@ table {
 }
 
 .coluna {
-  padding-top: 7em;
+  padding-top: 8em;
 }
 
 .contactos {
@@ -160,4 +158,12 @@ table {
   display: inline-flex;
   /* -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white; */
+}
+
+.contact-width {
+  width: 90% !important;
+}
+
+.morada {
+  font-family: "Montserrat", sans-serif;
 }
