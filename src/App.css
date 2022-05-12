@@ -108,9 +108,10 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
-  background-image: url(../src/assets/1.png);
+  background-image: url(../src/assets/site-15.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -143,11 +144,20 @@ table {
 }
 
 .frase {
-  font-size: 5em;
+  font-size: 4rem;
   color: #01214a;
   font-family: "Sunflower";
 }
 
 .coluna {
-  padding-top: 9em;
+  padding-top: 7em;
+}
+
+.contactos {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Sunflower";
+  display: inline-flex;
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white; */
 }
