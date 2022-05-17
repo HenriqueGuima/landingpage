@@ -217,4 +217,10 @@ table {
     margin-top: 2em;
     text-align: center;
   }
+
+  .frase {
+    font-size: 3rem;
+    color: #01214a;
+    font-family: "Sunflower";
+  }
 }
