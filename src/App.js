@@ -40,7 +40,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12 text-center show">
+                  <div class="col-sm-12 text-center show mx-auto">
                     <div className="morada-esq">
                       <span style={{ fontSize: "2.5rem" }}>Armazém</span>{" "}
                       <div className="morada">
