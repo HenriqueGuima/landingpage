@@ -24,11 +24,19 @@ function App() {
                         <div>4820-403 Fafe</div>
                       </div>
                     </div>
+                    <div className="col-md-4 morada-cent">
+                      <span style={{ fontSize: "2.5rem" }}>Contactos</span>{" "}
+                      <div className="morada">
+                        <div>geral@meps.pt</div>
+                        <div>253 490 780</div>
+                      </div>
+                    </div>
+
                     <div className="col-md-4 morada-dir">
                       <span style={{ fontSize: "2.5rem" }}>Fábrica</span>{" "}
                       <div className="morada">
-                        Zona Industrial do Socorro, Lote nº 17
-                        <div>4820-570 Quinchães</div>{" "}
+                        Zona Industrial do<br></br> Socorro, Lote nº 17
+                        <div>4820-570 Quinchães</div>
                       </div>
                     </div>
                   </div>
@@ -36,15 +44,22 @@ function App() {
                     <div className="morada-esq">
                       <span style={{ fontSize: "2.5rem" }}>Armazém</span>{" "}
                       <div className="morada">
-                        Rua da Agrela, nr 153
+                        Rua da Agrela, nº 153
                         <div>4820-403 Fafe</div>
+                      </div>
+                    </div>
+                    <div className="morada-cent">
+                      <span style={{ fontSize: "2.5rem" }}>Contactos</span>{" "}
+                      <div className="morada">
+                        <div>geral@meps.pt</div>
+                        <div>253 490 780</div>
                       </div>
                     </div>
                     <div className="morada-dir">
                       <span style={{ fontSize: "2.5rem" }}>Fábrica</span>{" "}
                       <div className="morada">
-                        Zona Industrial do Socorro, Lote nº 17
-                        <div>4820-570 Quinchães</div>{" "}
+                        Zona Industrial do<br></br> Socorro, Lote nº 17
+                        <div>4820-570 Quinchães</div>
                       </div>
                     </div>
                   </div>

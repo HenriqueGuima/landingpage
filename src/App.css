@@ -168,6 +168,10 @@ table {
   font-family: "Montserrat", sans-serif;
 }
 
+.morada-cent {
+  text-align: center;
+}
+
 .morada-esq {
   text-align: left;
 }
@@ -207,5 +211,10 @@ table {
   .morada-dir {
     margin-block: 3em;
     text-align: unset;
+  }
+
+  .morada-cent {
+    margin-top: 2em;
+    text-align: center;
   }
 }
